@@ -23,27 +23,13 @@
     border-radius: 6px;
   }
   
-  /*------------------------*/
   
-  /* Un-comment both of these selectors below to see what happens to the elements. To use a shortcut in doing this, highlight both selectors and use cmd + k if you are on mac. */
-  
-  /* #heading-one{
-    margin-bottom: 0;
-  }
-  
-  #heading-two{
-    margin-top: 0;
-  } */
-  
-  /* This is called Margin Collapsing. Originally the two elements shared margin space. Heading 1 had bottom margin that overlapped with heading 2's top margin. Setting their margins to 0 will collapse the margins. */
-  
-  /*------------------------*/
   
   span{
     border-style: solid;
     border-radius: 6px;
     background-color: #F5F5DC;
-  /*   font-size: 20px; */
+  
   /*Why doesn't margin-top work on inline elements?
     
     margin-top: 2px; */
@@ -51,31 +37,19 @@
     /* margin ONLY works horizontally on inline elements. So just inputting '2px' affects the horizontal left and right margin only. */
     
     /* To change this, we would need to change the display style to inline-block. Un-comment the code below to see how it affects the span elements. */
-    
-  /*   margin: 5px 0;
-    padding: 20px;
-    display: inline-block;
-    text-align: center;
-    width: 500px; */
+ 
     
   /* What if you wanted no margin between the inline elements? Change the margin to 0 and see what happens. You see how there is a space between the two spans? Why? We removed the margin, so why is there still a space?
     
     This is actually because of the spans above in the HTML. They are on two separate lines. Put both span element on the same line and the margin will disappear. There is another way to get around this issue without changing the HTML, and that would be to use negative margin values.
     */
   }
-  
-  /* #adjust-margin{
-    margin-left: -6px;
-  } 
-  */
-  
+
   /* This only works with margin. Padding doesn't accept negative values. */
   
   /* Instead of using negative margin values, you can change the font-size of the spans parent element. Un-comment this code below for the span-container, comment out the margin property in the span selector, then un-comment the font-size in the span selector.*/
   
-  /* #span-container{
-    font-size: 0;
-  } */
+  
   
   /*------------------------*/
   
