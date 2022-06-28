@@ -10,12 +10,12 @@ body {
 
 .container {
   background: whitesmoke;
-/* Iteration-2 : give a property for such that container such that element  fills the entire line */
+/* Iteration-2 : give a property such that the container element fills the entire line */
 
   padding: 25px;
   max-width: 80%;
   height: 30em;
- /* Iteration-3: give a property such that the top and bottom margin is set to 12% and whole block is centered*/
+ /* Iteration-3: give a property such that the top and bottom margin is set to 12% and whole block is horizontally centered*/
  
   overflow: hidden;
   border-radius: 10px;
@@ -51,7 +51,7 @@ h2 {
 }
 .task-button {
   border: 2px solid red;
- /* Iteration-4: give a property such that top and bottom inbox spacing to 8px and left and right to 20px */
+ /* Iteration-4: give a property to set the top and bottom inbox spacing to 8px and left and right to 20px */
   color: white;
   background-color: red;
   font-size: 12px;
@@ -76,7 +76,7 @@ h2 {
   border: 2px solid #b1c9bb;
   border-radius: 5px;
   background: #fff;
-  /* Iteration-6: set a property such that its top and bottom margin to 15px*/
+  /* Iteration-6: set a property such that top and bottom margin is set to 15px*/
 }
 
 .box-1 {
